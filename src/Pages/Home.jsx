@@ -36,7 +36,7 @@ function Home() {
     <input
       type='text'
       className='form-control border-0'
-      placeholder='Search Projects by Technologies used'
+      placeholder='Search Projects'
       onChange={(e) => setSearchKey(e.target.value)}
     />
     <i className="fa-solid fa-magnifying-glass fa-rotate-90 mx-2"></i>
