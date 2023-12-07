@@ -51,8 +51,8 @@ function Wishlist() {
             className='w-100 d-flex flex-column justify-content-center align-items-center text-center'
           >
             <img height={'200px'} src='https://bakestudio.in/assets/images/cart/empty-cart.gif' alt='' />
-            <h3 className='text-primary fw-bold fs-4 mt-3'>Your wishlist is empty</h3>
-            <Link style={{ textDecoration: 'none' }} to={'/'} className='btn btn-success rounded mt-3'>
+            <h3 style={{overflowY:'hidden'}} className='text-primary fw-bold fs-4 mt-3'>Your wishlist is empty</h3>
+            <Link style={{ textDecoration: 'none',overflowY:'hidden' }} to={'/'} className='btn btn-success rounded mt-3'>
               Back to Home
             </Link>
           </div>
